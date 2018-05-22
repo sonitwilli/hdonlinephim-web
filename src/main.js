@@ -28,8 +28,8 @@ import './assets/css/responsive.css'
 // // import './assets/js/jquery.kyco.easyshare.js'
 
 Vue.config.productionTip = false
-// Vue.prototype.api_url = 'http://api.hdonlinephim.com/'
-Vue.prototype.api_url = 'http://127.0.0.1:8000/'
+Vue.prototype.api_url = 'http://api.hdonlinephim.com/'
+// Vue.prototype.api_url = 'http://127.0.0.1:8000/'
 Vue.prototype.url = 'http://localhost:8080/'
 
 new Vue({
