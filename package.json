@@ -2,7 +2,7 @@
   "name": "web",
   "version": "1.0.0",
   "description": "HDOlinePhim",
-  "author": "Son Bui <sonbuideveloper@gmail.com>",
+  "author": "Son Bui DD <sonbuideveloper@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
