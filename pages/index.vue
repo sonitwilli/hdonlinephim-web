@@ -4,113 +4,64 @@
   <div class="wrapper page-home">
     <header-menu></header-menu>
 
+    <slider-home></slider-home>
 
+      <!-- ADS -->
+      <div class="adv">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
 
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-9">
-
-        <script src="app/services/moduleServices.js"></script>
-        <script src="app/controllers/moduleController.js"></script>
-    <!--Begin-->
-    <link href="Scripts/flexSlider/flexslider.css" rel="stylesheet" type="text/css" />
-    <script src="Scripts/flexSlider/jquery.flexslider-min.js" type="text/javascript"></script>
-    <div class="flexslider slideshow-content" id="bannerheaderhome" ng-controller="moduleController" ng-init="initSlideshowController('Slideshows')">
-        <ul class="slides">
-            <li ng-repeat="item in Slideshows">
-                <a title="" href="%7b%7bitem.html">
-                    <img alt="" ng-src="" />
-                </a>
-            </li>
-        </ul>
-    </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#bannerheaderhome').flexslider({
-                directionNav: true,
-                controlNav: false,
-                animation: "slide",
-                itemHeigh: 270,
-                itemMargin: 0,
-                animationSpeed: 700,
-                slideshowSpeed: 3000
-            });
-        });
-    </script>
-    <!--End-->
-    <script type="text/javascript">
-        window.Slideshows = [{"Id":710,"ShopId":150,"Name":"1","Image":"file:///C:/Users/SB/Desktop/themes/Shop%20Online/runecom26.runtime.vn/Uploads/shop150/images/slider/banner1.jpg","Link":"#","Index":1,"Inactive":false,"Timestamp":"AAAAAAASXtA="},{"Id":711,"ShopId":150,"Name":"2","Image":"file:///C:/Users/SB/Desktop/themes/Shop%20Online/runecom26.runtime.vn/Uploads/shop150/images/slider/bg1-slider-home1.jpg","Link":"#","Index":2,"Inactive":false,"Timestamp":"AAAAAAASXtE="},{"Id":712,"ShopId":150,"Name":"3","Image":"file:///C:/Users/SB/Desktop/themes/Shop%20Online/runecom26.runtime.vn/Uploads/shop150/images/slider/home1_slider1.png","Link":"#","Index":3,"Inactive":false,"Timestamp":"AAAAAAASXs4="}];
-    </script>                    
-    </div>
-    <div class="col-md-3">
-      <div class="box-html">
-          <div class="clearfix slideshow-block3 ">
-            <div class="">
-                <a class=""><img class="img-responsive" src="Uploads/shop150/images/adv/static-main-slide-01.png"></a>
-                <a class=""><img class="img-responsive" src="Uploads/shop150/images/adv/static-main-slide-02.png"></a>
-                <a class=""><img class="img-responsive" src="Uploads/shop150/images/adv/static-main-slide-03.png"></a>
+                  <link href="Scripts/owl-carousel/owl.carousel.css" rel="stylesheet" />
+                  <link href="Scripts/owl-carousel/owl.theme.css" rel="stylesheet" />
+                  <script src="Scripts/owl-carousel/owl.carousel.min.js"></script>
+                  <script src="app/services/moduleServices.js"></script>
+                  <script src="app/controllers/moduleController.js"></script>
+                  <!--Begin-->
+                  <div class="adv-content row hidden-xs" ng-controller="moduleController" ng-init="initAdvSlideController('AdvSlides')">
+                      <div class="owl-carousel">
+                          <ul id="adv-content">
+                              <li ng-repeat="item in AdvSlides">
+                                  <a href="%7b%7bitem.html"><img class="img-responsive" /></a>
+                              </li>
+                          </ul>
+                          <div class="controls boxprevnext">
+                              <a class="prev prevlogo"><i class="fa fa-angle-left"></i></a>
+                              <a class="next nextlogo"><i class="fa fa-angle-right"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <script type="text/javascript">
+                      $(document).ready(function () {
+                          var owladv = $(".adv-content ul");
+                          owladv.owlCarousel({
+                              autoPlay: true,
+                              autoPlay: 5000,
+                              items: 3,
+                              slideSpeed: 1000,
+                              pagination: false,
+                              itemsDesktop: [1200, 3],
+                              itemsDesktopSmall: [980, 3],
+                              itemsTablet: [767, 1],
+                              itemsMobile: [480, 1]
+                          });
+                          $(".adv-content .nextlogo").click(function () {
+                              owladv.trigger('owl.next');
+                          })
+                          $(".adv-content .prevlogo").click(function () {
+                              owladv.trigger('owl.prev');
+                          })
+                      });
+                  </script>
+                  <!--End-->
+              <script type="text/javascript">
+                  window.AdvSlides = [{"Id":347,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"4","Image":"Uploads/shop150/images/adv/static-main-top-01.png","ImageThumbnai":"Uploads/shop150/_thumbs/images/adv/static-main-top-01.png","Link":"#","IsVideo":false,"Index":4,"Inactive":false,"Timestamp":"AAAAAAASXAM="},{"Id":348,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"5","Image":"Uploads/shop150/images/adv/static-main-top-02.png","ImageThumbnai":"Uploads/shop150/_thumbs/images/adv/static-main-top-02.png","Link":"#","IsVideo":false,"Index":5,"Inactive":false,"Timestamp":"AAAAAAASXAQ="},{"Id":349,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"6","Image":"Uploads/shop150/images/adv/static-main-top-03.png","ImageThumbnai":"/Uploads/shop150/_thumbs/images/adv/static-main-top-03.png","Link":"#","IsVideo":false,"Index":6,"Inactive":false,"Timestamp":"AAAAAAASXAU="}];
+              </script>                        
             </div>
           </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-            <div class="adv">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-
-<link href="Scripts/owl-carousel/owl.carousel.css" rel="stylesheet" />
-<link href="Scripts/owl-carousel/owl.theme.css" rel="stylesheet" />
-<script src="Scripts/owl-carousel/owl.carousel.min.js"></script>
-<script src="app/services/moduleServices.js"></script>
-<script src="app/controllers/moduleController.js"></script>
-    <!--Begin-->
-    <div class="adv-content row hidden-xs" ng-controller="moduleController" ng-init="initAdvSlideController('AdvSlides')">
-        <div class="owl-carousel">
-            <ul id="adv-content">
-                <li ng-repeat="item in AdvSlides">
-                    <a href="%7b%7bitem.html"><img class="img-responsive" /></a>
-                </li>
-            </ul>
-            <div class="controls boxprevnext">
-                <a class="prev prevlogo"><i class="fa fa-angle-left"></i></a>
-                <a class="next nextlogo"><i class="fa fa-angle-right"></i></a>
-            </div>
         </div>
     </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var owladv = $(".adv-content ul");
-            owladv.owlCarousel({
-                autoPlay: true,
-                autoPlay: 5000,
-                items: 3,
-                slideSpeed: 1000,
-                pagination: false,
-                itemsDesktop: [1200, 3],
-                itemsDesktopSmall: [980, 3],
-                itemsTablet: [767, 1],
-                itemsMobile: [480, 1]
-            });
-            $(".adv-content .nextlogo").click(function () {
-                owladv.trigger('owl.next');
-            })
-            $(".adv-content .prevlogo").click(function () {
-                owladv.trigger('owl.prev');
-            })
-        });
-    </script>
-    <!--End-->
-<script type="text/javascript">
-    window.AdvSlides = [{"Id":347,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"4","Image":"Uploads/shop150/images/adv/static-main-top-01.png","ImageThumbnai":"Uploads/shop150/_thumbs/images/adv/static-main-top-01.png","Link":"#","IsVideo":false,"Index":4,"Inactive":false,"Timestamp":"AAAAAAASXAM="},{"Id":348,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"5","Image":"Uploads/shop150/images/adv/static-main-top-02.png","ImageThumbnai":"Uploads/shop150/_thumbs/images/adv/static-main-top-02.png","Link":"#","IsVideo":false,"Index":5,"Inactive":false,"Timestamp":"AAAAAAASXAQ="},{"Id":349,"ShopId":150,"AdvType":2,"AdvTypeName":"Chạy ngang","Name":"6","Image":"Uploads/shop150/images/adv/static-main-top-03.png","ImageThumbnai":"/Uploads/shop150/_thumbs/images/adv/static-main-top-03.png","Link":"#","IsVideo":false,"Index":6,"Inactive":false,"Timestamp":"AAAAAAASXAU="}];
-</script>                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <!-- End ADS -->
 
     <div class="main">
         <div class="container">
@@ -706,11 +657,13 @@
 <script>
 import HeaderMenu from '~/components/Header.vue'
 import FooterComponent from '~/components/Footer.vue'
+import SliderHome from '~/components/SliderHome.vue'
 
 export default {
   components: {
     HeaderMenu,
-    FooterComponent
+    FooterComponent,
+    SliderHome
   }
 }
 </script>
