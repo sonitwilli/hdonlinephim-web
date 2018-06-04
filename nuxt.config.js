@@ -11,11 +11,11 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '/boostrap/css/bootstrap.min.css' },
+      { rel: 'stylesheet', type: 'text/css', href: '/bootstrap/css/bootstrap.min.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.min.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/common.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/animate.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/jQuery-ui/jquery-ui.min.css' },
+      { rel: 'stylesheet', type: 'text/css', href: '/jQuery-ui/jquery-ui.min.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
 
     ]
