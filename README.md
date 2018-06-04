@@ -1,6 +1,6 @@
-# web
+# hdonlinephim-web
 
-> web phim
+> Nuxt.js project
 
 ## Build Setup
 

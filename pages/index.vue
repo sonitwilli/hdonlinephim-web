@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        web
+        HDOnline Phim
       </h1>
       <h2 class="subtitle">
-        web phim
+        Demon Dragon
       </h2>
       <div class="links">
         <a

@@ -1,21 +1,16 @@
 {
-  "name": "web",
+  "name": "hdonlinephim-web",
   "version": "1.0.0",
-  "description": "web phim",
+  "description": "Nuxt.js project",
   "author": "Son Bui <sonbuideveloper@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "heroku-postbuild": "npm run build",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
-  },
-  "engines": {
-    "node": "8.4.0",
-    "npm": "6.0.1"
   },
   "dependencies": {
     "nuxt": "^1.0.0"
