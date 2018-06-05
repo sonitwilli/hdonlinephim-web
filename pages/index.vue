@@ -1,22 +1,18 @@
 <template>
 
 <body class="cms-index-index cms-home-page">
- <div id="page">
+  <div id="page">
 
     <!-- Header -->
-    <header-menu></header-menu>
+    <!-- <header-menu></header-menu> -->
     <!-- End Header -->
 
     <!-- Slider -->
-    <slider-home></slider-home>
+    <!-- <slider-home></slider-home> -->
     <!-- end Slider -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div>
-        <!--<div class="col-inner ">
-          <div class="img-block"> <a href="#" class="ves-btnlink img-animation" title="Image"> <img src="images/mid-banner1.jpg"  alt="Image"></a> </div>
-          <div class="img-block1"> <a href="#" title="Image"> <img src="images/mid-banner2.jpg"  alt="Image"></a> </div>
-        </div>-->
         <div class="our-features-box">
           <div class="row">
             <div class="col-lg-3 space">
@@ -54,12 +50,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
     <div class="content-page">
       <div class="container">
         <div class="row">
-
-          <!-- featured category fashion -->
+        
           <div class="col-md-9">
             <div class="category-product">
               <div class="navbar nav-menu">
@@ -76,15 +72,14 @@
                     <li><a data-toggle="tab" href="#tab-4">PENDANTS</a> </li>
 
                   </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+                </div>                
 
               </div>
               <div class="product-bestseller">
                 <div class="product-bestseller-content">
                   <div class="product-bestseller-list">
                     <div class="tab-container">
-                      <!-- tab product -->
+                      
                       <div class="tab-panel active" id="tab-1">
                         <div class="category-products">
                           <ul class="products-grid">
@@ -863,7 +858,7 @@
               </div>
             </div>
 
-            <!-- bestsell Slider -->
+        
             <div class="bestsell-pro">
               <div class="slider-items-products">
                 <div class="bestsell-block">
@@ -1583,7 +1578,7 @@
       <!-- </div>
     </div> -->
     <!-- Newsletter and social widget -->
-    <div class="subscribe-area">
+    <!-- <div class="subscribe-area">
 
         <div class="container">
         <div class="row">
@@ -1623,16 +1618,16 @@
             </div>
             </div>
           </div>
-    </div>
+    </div> -->
     <!-- Newsletter and social widget end-->
 
     <!-- Footer -->
-    <footer-component></footer-component>
+    <!-- <footer-component></footer-component> -->
     <!-- End Footer -->
   </div>
 
   <!-- mobile menu -->
-  <menu-mobile></menu-mobile>
+  <!-- <menu-mobile></menu-mobile> -->
   <!-- end mobile menu -->
 
   <!-- JavaScript -->
@@ -1649,17 +1644,17 @@
 </template>
 
 <script>
-import HeaderMenu from '~/components/Header.vue'
-import FooterComponent from '~/components/Footer.vue'
-import MenuMobile from '~/components/MenuMobile.vue'
-import SliderHome from '~/components/SliderHome.vue'
+// import HeaderMenu from '~/components/Header.vue'
+// import FooterComponent from '~/components/Footer.vue'
+// import MenuMobile from '~/components/MenuMobile.vue'
+// import SliderHome from '~/components/SliderHome.vue'
 
 export default {
   components: {
-    HeaderMenu,
-    FooterComponent,
-    MenuMobile,
-    SliderHome
+    // HeaderMenu,
+    // FooterComponent,
+    // MenuMobile,
+    // SliderHome
   }
 }
 </script>

@@ -11,17 +11,17 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/bootstrap.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/simple-line-icons.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/owl.carousel.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/owl.theme.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/jquery.bxslider.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/jquery.mobile-menu.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/revslider.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800' }
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/bootstrap.min.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/simple-line-icons.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/owl.carousel.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/owl.theme.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/jquery.bxslider.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/jquery.mobile-menu.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/revslider.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' },
+      // { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800' }
     ]
   },
   /*
