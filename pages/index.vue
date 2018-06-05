@@ -1,7 +1,6 @@
 <template>
-<div>
-  <body class="cms-index-index cms-home-page">
 
+<body class="cms-index-index cms-home-page">
  <div id="page">
 
     <!-- Header -->
@@ -1645,8 +1644,8 @@
   <script type="text/javascript" src="http://htmldemo.themessoft.com/crocus/version5/js/jquery.mobile-menu.min.js"></script>
   <script type="text/javascript" src="http://htmldemo.themessoft.com/crocus/version5/js/countdown.js"></script>  -->
 
-  </body>
-</div>
+</body>
+
 </template>
 
 <script>
