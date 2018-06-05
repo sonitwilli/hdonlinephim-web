@@ -10,13 +10,13 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '/bootstrap/css/bootstrap.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/common.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/animate.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/jQuery-ui/jquery-ui.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'stylesheet', type: 'text/css', href: '/bootstrap/css/bootstrap.min.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.min.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/common.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/animate.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/jQuery-ui/jquery-ui.min.css' },
+      // { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
 
     ]
   },
