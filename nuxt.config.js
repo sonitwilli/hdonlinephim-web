@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/css/bootstrap.min.css' },
+      { rel: 'stylesheet', type: 'text/css', href: '/css/bootstrap.min.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/font-awesome.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/simple-line-icons.css' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/owl.carousel.css' },
