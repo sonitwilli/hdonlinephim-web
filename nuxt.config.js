@@ -23,15 +23,15 @@ module.exports = {
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800' }
     ],
-    // script: [
-    //   { src: 'js/jquery.min.js' },
-    //   { src: 'js/bootstrap.min.js' },
-    //   { src: 'js/revslider.js' },
-    //   { src: 'js/common.js' },
-    //   { src: 'js/owl.carousel.min.js' },
-    //   { src: 'js/jquery.mobile-menu.min.js' },
-    //   { src: 'js/countdown.js' }
-    // ]
+    script: [
+      { src: 'js/jquery.min.js' },
+      { src: 'js/bootstrap.min.js' },
+      { src: 'js/revslider.js' },
+      { src: 'js/common.js' },
+      { src: 'js/owl.carousel.min.js' },
+      { src: 'js/jquery.mobile-menu.min.js' },
+      { src: 'js/countdown.js' }
+    ]
   },
   /*
   ** Customize the progress bar color

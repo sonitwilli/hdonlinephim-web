@@ -8,7 +8,7 @@
     <!-- End Header -->
 
     <!-- Home Page -->
-    <!-- <home></home> -->
+    <home></home>
     <!-- End Home Page -->
 
     <!-- Footer -->
@@ -29,14 +29,14 @@
 import HeaderMenu from '~/components/HeaderMenu.vue'
 import FooterComponent from '~/components/FooterComponent.vue'
 // import MenuMobile from '~/components/MenuMobile.vue'
-// import Home from '~/components/Home.vue'
+import Home from '~/components/Home.vue'
 
 export default {
   components: {
     HeaderMenu,
     FooterComponent,
     // MenuMobile,
-    // Home
+    Home
   }
 }
 </script>
