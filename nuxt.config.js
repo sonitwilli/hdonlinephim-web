@@ -13,17 +13,17 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     css: [
-      { href: '/css/bootstrap.min.css' },
-      { href: '/css/font-awesome.css' },
-      { href: '/css/simple-line-icons.css' },
-      { href: '/css/owl.carousel.css' },
-      { href: '/css/owl.theme.css' },
-      { href: '/css/jquery.bxslider.css' },
-      { href: '/css/jquery.mobile-menu.css' },
-      { href: '/css/revslider.css' },
-      { href: '/css/style.css' },
-      { href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' },
-      { href: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800' }
+      { src: 'css/bootstrap.min.css' },
+      { src: 'css/font-awesome.css' },
+      { src: 'css/simple-line-icons.css' },
+      { src: 'css/owl.carousel.css' },
+      { src: 'css/owl.theme.css' },
+      { src: 'css/jquery.bxslider.css' },
+      { src: 'css/jquery.mobile-menu.css' },
+      { href: 'css/revslider.css' },
+      { href: 'css/style.css' },
+      { src: 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' },
+      { src: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800' }
     ],
     script: [
       { src: 'js/jquery.min.js' },
