@@ -12,7 +12,7 @@
     <!-- End Home Page -->
 
     <!-- Footer -->
-    <!-- <footer-component></footer-component> -->
+    <footer-component></footer-component>
     <!-- End Footer -->
 
   </div>
@@ -27,14 +27,14 @@
 
 <script>
 import HeaderMenu from '~/components/HeaderMenu.vue'
-// import FooterComponent from '~/components/FooterComponent.vue'
+import FooterComponent from '~/components/FooterComponent.vue'
 // import MenuMobile from '~/components/MenuMobile.vue'
 // import Home from '~/components/Home.vue'
 
 export default {
   components: {
     HeaderMenu,
-    // FooterComponent,
+    FooterComponent,
     // MenuMobile,
     // Home
   }
