@@ -4,7 +4,7 @@
   <div id="page">
 
     <!-- Header -->
-    <!-- <header-menu></header-menu> -->
+    <header-menu></header-menu>
     <!-- End Header -->
 
     <!-- Home Page -->
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-// import HeaderMenu from '~/components/HeaderMenu.vue'
+import HeaderMenu from '~/components/HeaderMenu.vue'
 // import FooterComponent from '~/components/FooterComponent.vue'
 // import MenuMobile from '~/components/MenuMobile.vue'
 // import Home from '~/components/Home.vue'
 
 export default {
-  // components: {
-    // HeaderMenu,
+  components: {
+    HeaderMenu,
     // FooterComponent,
     // MenuMobile,
     // Home
-  // }
+  }
 }
 </script>
 
