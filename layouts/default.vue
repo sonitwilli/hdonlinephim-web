@@ -22,16 +22,16 @@
 </template>
 
 <script>
-import HeaderMenu from '~/components/HeaderMenu.vue'
-import FooterComponent from '~/components/FooterComponent.vue'
-import MenuMobile from '~/components/MenuMobile.vue'
+// import HeaderMenu from '~/components/HeaderMenu.vue'
+// import FooterComponent from '~/components/FooterComponent.vue'
+// import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
-  components: {
-    HeaderMenu,
-    FooterComponent,
-    MenuMobile
-  }
+  // components: {
+  //   HeaderMenu,
+  //   FooterComponent,
+  //   MenuMobile
+  // }
 }
 </script>
 

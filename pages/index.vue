@@ -1616,12 +1616,9 @@
 </template>
 
 <script>
-import SliderHome from '~/components/SliderHome.vue'
+// import SliderHome from '~/components/SliderHome.vue'
 
 export default {
-  components: {
-    SliderHome
-  },
   asyncData (context) {
     // called every time before loading the component
     return { name: 'World' }
