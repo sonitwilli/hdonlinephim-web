@@ -18,7 +18,7 @@
   </div>
 
   <!-- mobile menu -->
-  <!-- <menu-mobile></menu-mobile> -->
+  <menu-mobile></menu-mobile>
   <!-- end mobile menu -->
 
 </body>
@@ -28,14 +28,14 @@
 <script>
 import HeaderMenu from '~/components/HeaderMenu.vue'
 import FooterComponent from '~/components/FooterComponent.vue'
-// import MenuMobile from '~/components/MenuMobile.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 import Home from '~/components/Home.vue'
 
 export default {
   components: {
     HeaderMenu,
     FooterComponent,
-    // MenuMobile,
+    MenuMobile,
     Home
   }
 }
