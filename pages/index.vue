@@ -55,7 +55,7 @@
     <div class="content-page">
       <div class="container">
         <div class="row">
-        
+
           <div class="col-md-9">
             <div class="category-product">
               <div class="navbar nav-menu">
@@ -72,14 +72,14 @@
                     <li><a data-toggle="tab" href="#tab-4">PENDANTS</a> </li>
 
                   </ul>
-                </div>                
+                </div>
 
               </div>
               <div class="product-bestseller">
                 <div class="product-bestseller-content">
                   <div class="product-bestseller-list">
                     <div class="tab-container">
-                      
+
                       <div class="tab-panel active" id="tab-1">
                         <div class="category-products">
                           <ul class="products-grid">
@@ -858,7 +858,7 @@
               </div>
             </div>
 
-        
+
             <div class="bestsell-pro">
               <div class="slider-items-products">
                 <div class="bestsell-block">
@@ -1644,17 +1644,17 @@
 </template>
 
 <script>
-// import HeaderMenu from '~/components/Header.vue'
-// import FooterComponent from '~/components/Footer.vue'
-// import MenuMobile from '~/components/MenuMobile.vue'
-// import SliderHome from '~/components/SliderHome.vue'
+import HeaderMenu from '~/components/HeaderMenu.vue'
+import FooterComponent from '~/components/FooterComponent.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
+import SliderHome from '~/components/SliderHome.vue'
 
 export default {
   components: {
-    // HeaderMenu,
-    // FooterComponent,
-    // MenuMobile,
-    // SliderHome
+    HeaderMenu,
+    FooterComponent,
+    MenuMobile,
+    SliderHome
   }
 }
 </script>
