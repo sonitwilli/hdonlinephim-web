@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- Slider -->
-    <slider-home></slider-home>
+    <!-- <slider-home></slider-home> -->
     <!-- end Slider -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div>
         <div class="our-features-box">
           <div class="row">
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="content-page">
       <div class="container">
@@ -1569,7 +1569,7 @@
     </div>
 
     <!-- Newsletter and social widget -->
-    <div class="subscribe-area">
+    <!-- <div class="subscribe-area">
 
         <div class="container">
         <div class="row">
@@ -1606,7 +1606,7 @@
             </div>
             </div>
           </div>
-    </div>
+    </div> -->
     <!-- Newsletter and social widget end-->
 
 
@@ -1614,12 +1614,12 @@
 </template>
 
 <script>
-import SliderHome from '~/components/SliderHome.vue'
+// import SliderHome from '~/components/SliderHome.vue'
 
 export default {
-  components: {
-    SliderHome
-  }
+  // components: {
+    // SliderHome
+  // }
 }
 </script>
 
