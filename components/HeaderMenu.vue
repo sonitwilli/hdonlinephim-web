@@ -357,7 +357,7 @@
 
 <script>
 export default {
-  asyncData ({ params }) {
+  asyncData () {
     return axios.get('http://api.hdonlinephim.com/api/setting')
     .then((res) => {
       console.log(res);
