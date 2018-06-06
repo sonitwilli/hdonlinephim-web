@@ -4,14 +4,14 @@
   <div id="page">
 
     <!-- Header -->
-    <!-- <header-menu></header-menu> -->
+    <header-menu></header-menu>
     <!-- End Header -->
 
     <!-- Slider -->
-    <!-- <slider-home></slider-home> -->
+    <slider-home></slider-home>
     <!-- end Slider -->
 
-    <!-- <div class="container">
+    <div class="container">
       <div>
         <div class="our-features-box">
           <div class="row">
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="content-page">
       <div class="container">
@@ -1578,7 +1578,7 @@
       <!-- </div>
     </div> -->
     <!-- Newsletter and social widget -->
-    <!-- <div class="subscribe-area">
+    <div class="subscribe-area">
 
         <div class="container">
         <div class="row">
@@ -1618,16 +1618,16 @@
             </div>
             </div>
           </div>
-    </div> -->
+    </div>
     <!-- Newsletter and social widget end-->
 
     <!-- Footer -->
-    <!-- <footer-component></footer-component> -->
+    <footer-component></footer-component>
     <!-- End Footer -->
   </div>
 
   <!-- mobile menu -->
-  <!-- <menu-mobile></menu-mobile> -->
+  <menu-mobile></menu-mobile>
   <!-- end mobile menu -->
 
   <!-- JavaScript -->
