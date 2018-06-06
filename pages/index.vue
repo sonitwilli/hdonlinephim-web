@@ -1621,7 +1621,28 @@ import SliderHome from '~/components/SliderHome.vue'
 export default {
   components: {
     SliderHome
-  }
+  },
+  asyncData (context) {
+    // called every time before loading the component
+    return { name: 'World' }
+  },
+  fetch () {
+    console.log('Home Page');
+  },
+  data () {
+    return {
+      title: 'Hello World!'
+    }
+  },
+  head () {
+    return {
+      title: 'Trang chủ | HDOnline Phim',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Description Trang chủ' },
+        { hid: 'keywords', name: 'keywords', content: 'keywords Trang chủ' }
+      ]
+    }
+  },
 }
 </script>
 
