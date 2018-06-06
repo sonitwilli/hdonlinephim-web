@@ -8,5 +8,3 @@ Vue.component('footer-component', FooterComponent)
 Vue.component('header-menu', HeaderMenu)
 Vue.component('menu-mobile', MenuMobile)
 Vue.component('slider-home', SliderHome)
-
-

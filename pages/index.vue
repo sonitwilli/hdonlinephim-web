@@ -1616,8 +1616,6 @@
 </template>
 
 <script>
-// import SliderHome from '~/components/SliderHome.vue'
-
 export default {
   asyncData (context) {
     // called every time before loading the component
