@@ -1,46 +1,6 @@
 <template>
-<header>
+  <header>
     <div class="header-container">
-      <div class="header-top">
-        <div class="container">
-          <div class="row">
-            <!-- Header Language -->
-            <div class="col-xs-12 col-sm-6">
-              <div class="dropdown block-language-wrapper"> <a role="button" data-toggle="dropdown" data-target="#" class="block-language dropdown-toggle" href="#"> <img src="http://htmldemo.themessoft.com/crocus/version5/images/english.png" alt="language"> English <span class="caret"></span> </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"> <a href="#"><img src="http://htmldemo.themessoft.com/crocus/version5/images/english.png" alt="language"> English </a> </li>
-                  <li role="presentation"> <a href="#"><img src="http://htmldemo.themessoft.com/crocus/version5/images/francais.png" alt="language"> French </a> </li>
-                  <li role="presentation"> <a href="#"><img src="http://htmldemo.themessoft.com/crocus/version5/images/german.png" alt="language"> German </a> </li>
-                </ul>
-              </div>
-              <!-- End Header Language -->
-
-              <!-- Header Currency -->
-              <div class="dropdown block-currency-wrapper"> <a role="button" data-toggle="dropdown" data-target="#" class="block-currency dropdown-toggle" href="#"> USD <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"><a href="#"> $ - Dollar </a> </li>
-                  <li role="presentation"><a href="#"> £ - Pound </a> </li>
-                  <li role="presentation"><a href="#"> € - Euro </a> </li>
-                </ul>
-              </div>
-              <!-- End Header Currency -->
-              <div class="welcome-msg"> Welcome Crocus! </div>
-            </div>
-            <div class="col-xs-6 hidden-xs">
-              <!-- Header Top Links -->
-              <div class="toplinks">
-                <div class="links">
-                  <div class="myaccount"><a title="My Account" href="http://htmldemo.themessoft.com/crocus/version5/login.html"><span class="hidden-xs"><i class="icon fa fa-user"></i> My Account</span></a> </div>
-                  <div class="check"><a title="Checkout" href="http://htmldemo.themessoft.com/crocus/version5/checkout.html"><span class="hidden-xs"><i class="icon fa fa-check"></i> Checkout</span></a> </div>
-                  <div class="demo"><a title="Blog" href="http://htmldemo.themessoft.com/crocus/version5/blog.html"><span class="hidden-xs"><i class="fa fa-commenting-o" aria-hidden="true"></i> Blog</span></a> </div>
-                  <div class="login"><a href="http://htmldemo.themessoft.com/crocus/version5/login.html"><span class="hidden-xs"><i class="icon fa fa-lock"></i> Log In</span></a> </div>
-                </div>
-              </div>
-              <!-- End Header Top Links -->
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 logo-block">
@@ -82,11 +42,9 @@
         </div>
       </div>
     </div>
-
     <!-- end header -->
 
     <!-- Navigation -->
-
     <nav>
       <div class="container">
         <div class="mm-toggle-wrap">
@@ -398,4 +356,12 @@
 </template>
 
 <script>
+export default {
+  asyncData ({ params }) {
+    return axios.get('http://api.hdonlinephim.com/api/setting')
+    .then((res) => {
+      console.log(res);
+    })
+  }
+}
 </script>
