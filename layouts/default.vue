@@ -24,15 +24,7 @@
 <script>
 
 export default {
-  computed: {
-    resizedIcon () {
-      console.log('Home page');
-      if (typeof this.blok.icon !== 'undefined') {
-        return '//img2.storyblok.com/80x80' + this.blok.icon.replace('//a.storyblok.com', '')
-      }
-      return 123;
-    }
-  }
+
 }
 </script>
 

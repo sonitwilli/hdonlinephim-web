@@ -357,6 +357,12 @@
 
 <script>
 export default {
+  data () {
+    return {
+      currentSlide: 0,
+      menus: null
+    }
+  },
   asyncData () {
     return axios.get('http://api.hdonlinephim.com/api/setting')
     .then((res) => {
