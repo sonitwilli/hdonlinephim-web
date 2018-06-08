@@ -5,7 +5,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 logo-block">
             <!-- Header Logo -->
-            <div class="logo"> <a title="Magento Commerce" href="http://htmldemo.themessoft.com/crocus/version5/index.html"><img alt="Magento Commerce" src="http://htmldemo.themessoft.com/crocus/version5/images/logo.png"> </a> </div>
+            <div class="logo">
+                <nuxt-link to="/"><img alt="Magento Commerce" src="http://htmldemo.themessoft.com/crocus/version5/images/logo.png"></nuxt-link>
+            </div>
             <!-- End Header Logo -->
           </div>
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12 hidden-xs">
@@ -366,7 +368,8 @@ export default {
   asyncData () {
     return axios.get('http://api.hdonlinephim.com/api/setting')
     .then((res) => {
-      console.log(res);
+      this.setting = res;
+      console.log(this.setting);
     })
   }
 }

@@ -1617,18 +1617,6 @@
 
 <script>
 export default {
-  asyncData (context) {
-    // called every time before loading the component
-    return { name: 'World' }
-  },
-  fetch () {
-    console.log('Home Page');
-  },
-  data () {
-    return {
-      title: 'Hello World!'
-    }
-  },
   head () {
     return {
       title: 'Trang chủ | HDOnline Phim',
@@ -1638,6 +1626,27 @@ export default {
       ]
     }
   },
+  // data () {
+  //   return { story: { content: {} } }
+  // },
+  // mounted () {
+  //   if (this.$storyblok.inEditor) {
+  //     this.$storyblok.init()
+
+  //     this.$storyblok.on('change', () => {
+  //       location.reload(true)
+  //     })
+  //   }
+  // },
+  // asyncData (context) {
+  //   return context.app.$storyapi.get('cdn/stories/home', {
+  //     version: 'draft'
+  //   }).then((res) => {
+  //     return res.data
+  //   }).catch((res) => {
+  //     context.error({ statusCode: res.response.status, message: res.response.data })
+  //   })
+  // }
 }
 </script>
 
